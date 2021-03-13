@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.description = 'Comprehensive import/export tools between Excel/CSV & ActiveRecord Databases, Rails apps, and any Ruby project.'
   s.license     = 'MIT'
 
-  s.required_ruby_version = '~> 2.0'
+  s.required_ruby_version = '>= 2.3.0'
 
   s.required_rubygems_version = Gem::Requirement.new('>= 0') if s.respond_to? :required_rubygems_version=
 
@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'rubyzip', '~> 1.2'
   s.add_runtime_dependency 'thread_safe', '~> 0.3', '>= 0.3'
   s.add_runtime_dependency 'erubis', '~> 2.7.0'
-  s.add_runtime_dependency 'thor', '~> 0.19.1'
+  s.add_runtime_dependency 'thor', '~> 1.0'
 
   # for the dummy rails sandbox used in testing
   s.add_development_dependency 'rubocop', '~> 0.38'
